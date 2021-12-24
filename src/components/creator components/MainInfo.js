@@ -49,16 +49,7 @@ export default class MainInfo extends Component {
             placeHolder="Location"
             value={this.props.personalInfo.location}
           />
-          <label className="bg-white pt-1 pb-1 pr-2 pl-2 rounded-l w-1/2 cursor-pointer">
-            <input
-              type="file"
-              name="photo"
-              id="photo"
-              placeholder="Personal Photo"
-              className="pt-1 pb-1 pr-2 pl-2 rounded-l w-1/2 hidden"
-            />
-            Personal Photo
-          </label>
+         
           <Input
             onChange={this.props.onChange}
             name="phoneNumber"
